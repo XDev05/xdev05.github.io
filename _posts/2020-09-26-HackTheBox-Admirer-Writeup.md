@@ -15,9 +15,6 @@ author: Ahmed Fatouh
 paginate: true
 ---
 
-![](https://i.ibb.co/VmGJygH/logo.png)
-
-
 # []()Methodology
 
 * Nmap Scan
