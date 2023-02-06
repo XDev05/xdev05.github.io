@@ -18,5 +18,4 @@ tags:
   - hackerone
 author: Ahmed Fatouh
 paginate: true
-published: true
 ---
