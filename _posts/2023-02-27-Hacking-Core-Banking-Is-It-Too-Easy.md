@@ -1,6 +1,6 @@
 
 ---
-date: 2023-02-27 23:48:05
+date: 2023-02-06 23:48:05
 layout: post
 title: Hacking Core Banking, Is It Too Easy?!
 subtitle: Hacking Core Banking, Is It Too Easy?!
