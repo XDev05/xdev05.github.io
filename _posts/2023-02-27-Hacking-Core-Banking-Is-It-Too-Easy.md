@@ -27,7 +27,7 @@ paginate: true
 
 > **let me give you an example, you have an account in Bank A, and you want to send money to your friend which has an account in Bank B, so you will use an online banking application to send money from Bank A to Bank B.**
 
-> now i'll give some scenarios:
+> **now i'll give some scenarios:**
 
 ### Scenarios
 
