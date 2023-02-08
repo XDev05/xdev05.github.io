@@ -19,4 +19,8 @@ author: Ahmed Fatouh
 paginate: true
 ---
 
-Hello, Hi, we need to hacking core banking.
+###[]()Introduction
+
+--> as Penetration Testers, all of us do a Pentest for core banking applications but there are some people who fear doing pentest for those applications so I'll Put some scenarios I've faced while doing pentest on core banking applications, let me describe what is Core banking.
+
+--> Core banking is a banking service provided by a group of networked bank branches where customers may access their bank account and perform basic transactions from any of the member branch offices.
