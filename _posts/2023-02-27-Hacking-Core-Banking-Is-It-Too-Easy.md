@@ -5,8 +5,8 @@ title: Hacking Core Banking, Is It Too Easy?!
 subtitle: Hacking Core Banking, Is It Too Easy?!
 description: >-
   In this Blog, I've explained some scenarios which I've faced while hacking some core banking applications.
-image: [https://i.ibb.co/DYkKnh3/photo.png](https://imgur.com/1NUdPpx)
-optimized_image: [https://i.ibb.co/DYkKnh3/photo.png](https://imgur.com/1NUdPpx)
+image: https://imgur.com/1NUdPpx
+optimized_image: https://imgur.com/1NUdPpx
 category: Application Security
 tags:
   - web security
