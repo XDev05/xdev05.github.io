@@ -6,7 +6,7 @@ permalink: /about/
 menu: true
 ---
 
-<img class="img-rounded" src="https://i.ibb.co/HGKbyLq/avatar.png" alt="XDev05" width="200">
+<img class="img-rounded" src="https://i.imgur.com/yvl9UrF.jpeg" alt="XDev05" width="200">
 
 # About
 
