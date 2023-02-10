@@ -27,5 +27,21 @@ Hello All, in this blog i will give you some scenarios which you will face at an
 
 ![](https://i.ibb.co/1vcBDFr/1.png)
 
+> **so lets assume that ther is some users in a corporate, like ahmed fatouh, khaled, reda, and so on, what if we need to make an compination of usernames to start the AS-REP Roasting attack.** 
+
+- **Ahmed Fatouh will be (a.fatouh, afatouh, ahmed.f, ahmedfatouh) and so one with all users.**
+- **lets assume we got some users with social engineering, lets go!**
+
+-```ruby 
+impacket-GetNPUsers dc.test/ -no-pass -usersfile userslist.txt  -format john -dc-ip xx.xx.xx.xxx
+
+```
+
+![](https://i.ibb.co/yNfcFH6/Inked2.jpg)
+
+
+
+
+
 
 
