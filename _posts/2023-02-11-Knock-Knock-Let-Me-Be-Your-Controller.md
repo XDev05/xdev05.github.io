@@ -38,7 +38,11 @@ impacket-GetNPUsers dc.test/ -no-pass -usersfile userslist.txt  -format john -dc
 
 ![](https://i.ibb.co/HBv9PdZ/Inked-Inked2.jpg)
 
+> **now let's assume we got some users and we dumped all things we need to escalate your privileges.**
 
+> **first we have to get a user then we will use this user to get the administrator hash.**
+> **using bloodhound I get the previous info.**
+![](https://i.ibb.co/XxhXf1K/Inked3.jpg)
 
 
 
