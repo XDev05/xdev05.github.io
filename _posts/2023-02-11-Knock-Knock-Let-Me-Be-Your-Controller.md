@@ -5,8 +5,8 @@ title: Knock Knock Let Me Be Your Controller
 subtitle: Knock Knock Let Me Be Your Controller
 description: >-
   In this Blog, I've explained some scenarios which I've faced in AD assessment.
-image: https://i.ibb.co/DYkyHyg/Active-Directory-attack-banner-555x202.webp
-optimized_image: https://i.ibb.co/DYkyHyg/Active-Directory-attack-banner-555x202.webp
+image: https://i.ibb.co/6X0FKjr/6-Types-of-Cyber-Security-Attacks-and-How-Can-Enterprises-Safeguard-Against-Them.jpg
+optimized_image: https://i.ibb.co/6X0FKjr/6-Types-of-Cyber-Security-Attacks-and-How-Can-Enterprises-Safeguard-Against-Them.jpg
 category: Active Directory
 tags:
   - web security
