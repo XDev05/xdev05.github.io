@@ -9,12 +9,6 @@ image: https://i.ibb.co/bbLMGmn/logo.jpg
 optimized_image: https://i.ibb.co/bbLMGmn/logo.jpg
 category: Active Directory
 tags:
-  - web security
-  - sql injection
-  - bug hunting
-  - Broken Access Control
-  - API Hacking
-  - hackerone
   - Active Directory
 author: Ahmed Fatouh
 paginate: true
