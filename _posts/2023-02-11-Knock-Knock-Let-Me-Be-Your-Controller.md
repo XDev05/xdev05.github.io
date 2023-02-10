@@ -19,4 +19,13 @@ tags:
 author: Ahmed Fatouh
 paginate: true
 ---
-Hello
+Hello All, in this blog i will give you some scenarios which you will face at any Active directory Assessment.
+
+### AS-REP Roasting
+
+> **AS-REP roasting is a technique that allows retrieving password hashes for users that have Do not require Kerberos preauthentication property selected:**
+
+(first-pic)[https://i.ibb.co/1vcBDFr/1.png]
+
+
+
