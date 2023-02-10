@@ -36,7 +36,8 @@ Hello All, in this blog i will give you some scenarios which you will face at an
 impacket-GetNPUsers dc.test/ -no-pass -usersfile userslist.txt  -format john -dc-ip xx.xx.xx.xxx
 ```
 
-![](https://i.ibb.co/yNfcFH6/Inked2.jpg)
+![](https://i.ibb.co/HBv9PdZ/Inked-Inked2.jpg)
+
 
 
 
