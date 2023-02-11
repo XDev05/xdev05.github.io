@@ -57,7 +57,7 @@ impacket-GetNPUsers dc.test/ -no-pass -usersfile userslist.txt  -format john -dc
 - **ForceChangePassword** - ability to change user's password
 - **Self (Self-Membership)** - ability to add yourself to a group
 
-> **so we need first to add the user we have to the Network Audit group after being in the group we will have GenericWriet Permission on the nex user.**
+> **so we need first to add the user we have to the Network Audit group after being in the group we will have GenericWriet Permission on the next user.**
 > **First step lets fire up our windows server, import ADModule and PowerView.**
 
 > **lets execute the following commands in our powershell:**
