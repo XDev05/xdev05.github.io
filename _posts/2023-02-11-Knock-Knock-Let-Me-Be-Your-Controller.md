@@ -60,6 +60,9 @@ impacket-GetNPUsers dc.test/ -no-pass -usersfile userslist.txt  -format john -dc
 > **so we need first to add the user we have to the Network Audit group after being in the group we will have GenericWriet Permission on the nex user.**
 > **First step lets fire up our windows server, import ADModule and PowerView.**
 
+> **lets execute the following commands in our powershell:
+> ![](https://i.ibb.co/QY1ZK9N/pss1.jpg)
+> ![](https://i.ibb.co/7xDtwST/pss2.jpg)
 
 
 
