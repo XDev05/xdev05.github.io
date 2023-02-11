@@ -39,6 +39,29 @@ impacket-GetNPUsers dc.test/ -no-pass -usersfile userslist.txt  -format john -dc
 > **using bloodhound I get the previous info.**
 ![](https://i.ibb.co/XxhXf1K/Inked3.jpg)
 
+### Abusing Active Directory Permissions
+
+> **The user we've owned is the Owner of the Network Audit group, so we will add him to the group, then he will Have GenericWrite Permissions to the next user we want.**
+
+> **Let me give you a brief about the Active Directory ACLs/ACEs:
+> Active Directory objects such as users and groups are securable objects and DACL/ACEs define who can read/modify those objects (i.e change account name, reset password, etc). 
+> An example of ACEs for the "Domain Admins" securable object can be seen here:**
+> ![](https://i.ibb.co/QkPk26G/1111.webp)
+
+> **Some of the Active Directory object permissions and types that we as attackers are interested in:**
+- **GenericAll** - full rights to the object (add users to a group or reset user's password)
+- **GenericWrite** - update object's attributes (i.e logon script)
+- **WriteOwner** - change object owner to attacker controlled user take over the object
+- **WriteDACL** - modify object's ACEs and give attacker full control right over the object
+- **AllExtendedRights** - ability to add user to a group or reset password
+- **ForceChangePassword** - ability to change user's password
+- **Self (Self-Membership)** - ability to add yourself to a group
+
+> **so we need first to add the user we have to the Network Audit group after being in the group we will have GenericWriet Permission on the nex user.**
+> **First step lets fire up our windows server, import ADModule and PowerView.**
+
+
+
 
 
 
