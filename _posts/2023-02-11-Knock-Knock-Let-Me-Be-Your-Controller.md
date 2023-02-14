@@ -14,7 +14,7 @@ author: Ahmed Fatouh
 paginate: true
 published: false
 ---
-Hello All, in this blog i will give you some scenarios which you will face at any Active directory Assessment.
+Hello All, In this Blog I will give you some scenarios which you probably will face at Active directory Assessment.
 
 ### AS-REP Roasting
 
@@ -84,6 +84,10 @@ impacket-GetNPUsers dc.test/ -no-pass -usersfile userslist.txt  -format john -dc
 - **the attacker must have control over an account able to write the msDs-KeyCredentialLink attribute of the target user or computer account.**
 
 ### Local Privilege Escalation Using KrbRelay With Shadow Credentials.
+
+
+
+
 
 
 
