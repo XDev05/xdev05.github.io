@@ -77,7 +77,7 @@ impacket-GetNPUsers dc.test/ -no-pass -usersfile userslist.txt  -format john -dc
 > ![](https://i.ibb.co/Lhw0tTF/attack3.jpg)
 
 
-### Pre-requisites for this attack are as follows
+#### Pre-requisites for this attack are as follows
 - **the target Domain Functional Level must be Windows Server 2016 or above.**
 - **the target domain must have at least one Domain Controller running Windows Server 2016 or above.**
 - **the Domain Controller to use during the attack must have its own certificate and keys (this means either the organization must have AD CS, or a PKI, a CA or something alike).**
