@@ -64,6 +64,15 @@ impacket-GetNPUsers dc.test/ -no-pass -usersfile userslist.txt  -format john -dc
 > ![](https://i.ibb.co/QY1ZK9N/pss1.jpg)
 > ![](https://i.ibb.co/7xDtwST/pss2.jpg)
 
+> **now lets get new TGT for the user we have.**
+> ![](https://i.ibb.co/rGpBnWX/ATTACK1.jpg)
+> **lets manauplate the msDS-KeyCredentialLink of a target user/computer to obtain full control over that object and Add KeyCredential for the user which have high privileges.**
+> ![](https://i.ibb.co/StvfP3g/attack2.jpg)
+> **now lets import the KRB5CCNAME and login with evil-winrm**
+> ![](https://i.ibb.co/Lhw0tTF/attack3.jpg)
+
+
+
 
 
 
