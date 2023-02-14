@@ -83,6 +83,10 @@ impacket-GetNPUsers dc.test/ -no-pass -usersfile userslist.txt  -format john -dc
 - **the Domain Controller to use during the attack must have its own certificate and keys (this means either the organization must have AD CS, or a PKI, a CA or something alike).**
 - **the attacker must have control over an account able to write the msDs-KeyCredentialLink attribute of the target user or computer account.**
 
+### Local Privilege Escalation Using KrbRelay With Shadow Credentials.
+
+
+
 
 
 
