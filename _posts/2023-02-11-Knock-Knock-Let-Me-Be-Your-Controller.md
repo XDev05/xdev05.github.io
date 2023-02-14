@@ -93,6 +93,25 @@ impacket-GetNPUsers dc.test/ -no-pass -usersfile userslist.txt  -format john -dc
 
 > **In addition to KrbRelay, this guide will use Rubeus to request a ticket using the shadow credential and to perform a S4U2self request that will impersonate a DA user on the local machine. After the impersonated ticket is imported, we will use the SCMUACBypass tool by Tyranid to spawn a shell as SYSTEM. This process is pretty much identical to what’s used in the ShadowCred mode of KrbRelayUp by dec0ne, so definitely check that out for more information.**
 
+> **first step, we will do Kerberos relay to LDAP - add new msDS-KeyCredentialLink:**
+
+>![](https://i.ibb.co/bFWjXdQ/step1.jpg)
+
+> **Using Rubeus to ask for a TGT as DC$ with the certificate which we got and get NTLM hash via U2U:**
+
+>![](https://i.ibb.co/kyyYFgJ/step2.jpg)
+>![](https://i.ibb.co/jRMX0B1/step3.jpg)
+
+> **Now lets Use CrackMapExec to dump the NTDS with the NTLM hash from last step:**
+
+>![](https://i.ibb.co/tZ4q9xF/4.png)
+
+##### Refrence
+
+- https://icyguider.github.io/2022/05/19/NoFix-LPE-Using-KrbRelay-With-Shadow-Credentials.html
+- https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/abusing-active-directory-acls-aces
+
+**cheers!**
 
 
 
