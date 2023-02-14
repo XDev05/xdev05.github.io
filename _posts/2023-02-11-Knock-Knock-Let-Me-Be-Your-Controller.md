@@ -95,12 +95,12 @@ impacket-GetNPUsers dc.test/ -no-pass -usersfile userslist.txt  -format john -dc
 
 > **first step, we will do Kerberos relay to LDAP - add new msDS-KeyCredentialLink:**
 
->![](https://i.ibb.co/bFWjXdQ/step1.jpg)
+>![](https://i.ibb.co/4T5yK5Q/step1.jpg)
 
 > **Using Rubeus to ask for a TGT as DC$ with the certificate which we got and get NTLM hash via U2U:**
 
->![](https://i.ibb.co/kyyYFgJ/step2.jpg)
->![](https://i.ibb.co/jRMX0B1/step3.jpg)
+>![](https://i.ibb.co/s9GqBNz/step2.jpg)
+>![](https://i.ibb.co/Jv7j5dr/step3.jpg)
 
 > **Now lets Use CrackMapExec to dump the NTDS with the NTLM hash from last step:**
 
