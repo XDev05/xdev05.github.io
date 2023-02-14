@@ -85,6 +85,14 @@ impacket-GetNPUsers dc.test/ -no-pass -usersfile userslist.txt  -format john -dc
 
 ### Local Privilege Escalation Using KrbRelay With Shadow Credentials.
 
+#### pre-requisites necessary for this guide:
+
+- **Domain Controller without LDAP Signing enforced (default)**
+- **Domain Controller with its own server authentication certificate (for PKINIT authentication)**
+- **Ability to write the msDs-KeyCredentialLink attribute of the target computer account (default)**
+
+> **In addition to KrbRelay, this guide will use Rubeus to request a ticket using the shadow credential and to perform a S4U2self request that will impersonate a DA user on the local machine. After the impersonated ticket is imported, we will use the SCMUACBypass tool by Tyranid to spawn a shell as SYSTEM. This process is pretty much identical to what’s used in the ShadowCred mode of KrbRelayUp by dec0ne, so definitely check that out for more information.**
+
 
 
 
