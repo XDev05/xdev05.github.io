@@ -5,8 +5,8 @@ title: Knock Knock Let Me Be Your Controller
 subtitle: Knock Knock Let Me Be Your Controller.
 description: >-
   In this Blog, I've explained some scenarios which I've faced in AD assessment.
-image: https://i.ibb.co/bbLMGmn/logo.jpg
-optimized_image: https://i.ibb.co/bbLMGmn/logo.jpg
+image: https://i.ibb.co/BPLmVs1/active-directory.jpg
+optimized_image: https://i.ibb.co/BPLmVs1/active-directory.jpg
 category: Active Directory
 tags:
   - Active Directory
